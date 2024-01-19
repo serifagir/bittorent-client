@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bencode": "^4.0.0"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "url": "^0.11.3"
+  }
 }
